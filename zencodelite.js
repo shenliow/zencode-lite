@@ -24,7 +24,7 @@
 //
 //  2014 Author SEFI
 
-console.log("hello");
+console.log("hello world");
 
 function zencode(input, pattern) {
     var _s = [], _buffer ="", _parenthesis = "", _taglist = [], _grouplist = [], _lastgroup = [], _result = [] ;
