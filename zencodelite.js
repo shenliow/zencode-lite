@@ -24,9 +24,9 @@
 //
 //  2014 Author SEFI
 
-console.log("hi");
+console.log("hello");
 
-function zencode(input) {
+function zencode(input, pattern) {
     var _s = [], _buffer ="", _parenthesis = "", _taglist = [], _grouplist = [], _lastgroup = [], _result = [] ;
 
     function beginTag(tag, cls, id, attr, content) {
