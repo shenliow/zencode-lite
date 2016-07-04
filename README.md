@@ -11,7 +11,7 @@ example :
     zencode("div.block#c01>{click}+a[href=www.pchome.com.tw]{link}^span{to:$}*3")
 =>
 
-    <div class="block" id="c01">click<a href="www.pchome.com.tw">link</a></div><span>to:1</span><span>to:2</span><span>to:3</span>0
+    <div class="block" id="c01">click<a href="www.pchome.com.tw">link</a></div><span>to:1</span><span>to:2</span><span>to:3</span>
 
 #pattern :
 -  **.** : class setter                                ex: `div.block`    => `<div class="block"></div>`
